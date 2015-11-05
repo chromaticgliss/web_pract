@@ -11,11 +11,14 @@
 		<h1>di0chroma</h1>
         <p>Welcome to my pointless page.</p>
 	</section>
+    <section>
+        <script type="text/javascript" src="platformer.js"></script>
+        <script type="text/javascript" src="game_levels.js"></script>
+        
+        <script>
+            runGame(GAME_LEVELS, DOMDisplay);
+        </script>
+    </section
 </div>
 </body>
-<script type="text/javascript" src="platformer.js"></script>
-<script type="text/javascript"> 
-    var simpleLevel = new Level(simpleLevelPlan);
-    var display = new DOMDisplay(document.body, simpleLevel);    
-</script>
 </html>
